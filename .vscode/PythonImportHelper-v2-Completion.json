@@ -1,0 +1,47 @@
+[
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "input_list",
+        "kind": 5,
+        "importPath": "Bronze II.1152",
+        "description": "Bronze II.1152",
+        "peekOfCode": "input_list = list(map(str,input().split()))\nprint(len(input_list))",
+        "detail": "Bronze II.1152",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "Silver IV.4949",
+        "description": "Silver IV.4949",
+        "peekOfCode": "def check(string:str):\n    while True:\n        if \"()\" in string:\n            string = string.replace(\"()\",\"\")\n        elif \"[]\" in string:\n            string = string.replace(\"[]\",\"\")\n        elif string == \"\":\n            print(\"yes\")\n            return 0\n        else:",
+        "detail": "Silver IV.4949",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "Silver IV.9012",
+        "description": "Silver IV.9012",
+        "peekOfCode": "def check(string:str):\n    while True:\n        if \"()\" in string:\n            string = string.replace(\"()\",\"\")\n        elif string == \"\":\n            print(\"YES\")\n            break\n        else:\n            print(\"NO\")\n            break",
+        "detail": "Silver IV.9012",
+        "documentation": {}
+    },
+    {
+        "label": "N:int",
+        "kind": 5,
+        "importPath": "Silver IV.9012",
+        "description": "Silver IV.9012",
+        "peekOfCode": "N:int = int(input())\nfor i in range(N):\n    string:str = input()\n    check(string)",
+        "detail": "Silver IV.9012",
+        "documentation": {}
+    }
+]
